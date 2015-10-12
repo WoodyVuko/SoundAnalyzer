@@ -7,19 +7,64 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    @IBOutlet weak var previewView: UIView!
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        self.intialSetup()
     }
-
+    
+    func intialSetup()
+    {
+        let captureSession = AVCaptureSession()
+        
+        var captureDevice : AVCaptureDevice?
+        
+        let devices = AVCaptureDevice.devices()
+        for device in devices
+        {
+            if (device.hasMediaType(AVMediaTypeVideo))
+            {
+                if(device.position == AVCaptureDevicePosition.Back)
+                {
+                    captureDevice = device as? AVCaptureDevice
+                }
+            }
+        }
+        
+        if (captureDevice != nil)
+        {
+            let input : AVCaptureDeviceInput?
+            do {
+                input = try AVCaptureDeviceInput(device: captureDevice)
+            }
+            catch let error as NSError {
+                input = nil
+                NSLog("error creating input device:", error.localizedDescription)
+                return
+            }
+            
+            if (captureSession.canAddInput(input))
+            {
+                captureSession.addInput(input)
+            }
+        }
+        
+        let previewLayer = AVCaptureVideoPreviewLayer(session: captureSession)
+        self.previewView.layer.addSublayer(previewLayer)
+        previewLayer?.frame = self.previewView.bounds
+        captureSession.startRunning()
+    }
 
 }
 
