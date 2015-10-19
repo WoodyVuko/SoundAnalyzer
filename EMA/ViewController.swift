@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate {
 
     @IBOutlet weak var previewView: UIView!
     
@@ -60,10 +60,24 @@ class ViewController: UIViewController {
             }
         }
         
+        let videoOutput = AVCaptureVideoDataOutput()
+        videoOutput.setSampleBufferDelegate(self,
+            queue: dispatch_queue_create("sample buffer delegate", DISPATCH_QUEUE_SERIAL))
+        
+        if (captureSession.canAddOutput(videoOutput))
+        {
+            captureSession.addOutput(videoOutput)
+        }
+        
         let previewLayer = AVCaptureVideoPreviewLayer(session: captureSession)
         self.previewView.layer.addSublayer(previewLayer)
         previewLayer?.frame = self.previewView.bounds
         captureSession.startRunning()
+    }
+    
+    func captureOutput(captureOutput: AVCaptureOutput!, didOutputSampleBuffer sampleBuffer: CMSampleBuffer!, fromConnection connection: AVCaptureConnection!)
+    {
+        
     }
 
 }
