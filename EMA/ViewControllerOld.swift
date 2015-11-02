@@ -8,8 +8,11 @@
 
 import UIKit
 import AVFoundation
+import CoreFoundation
+import CoreGraphics
+import ImageIO
 
-class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate {
+class ViewControllerOld: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate {
 
     @IBOutlet weak var previewView: UIView!
     
