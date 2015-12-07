@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B86D50941C15907F00C4A242 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86D50931C15907F00C4A242 /* AppDelegate.swift */; };
+		B86D50961C15907F00C4A242 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86D50951C15907F00C4A242 /* ViewController.swift */; };
+		B86D50991C15907F00C4A242 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86D50971C15907F00C4A242 /* Main.storyboard */; };
+		B86D509C1C15907F00C4A242 /* PeteJunior.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B86D509A1C15907F00C4A242 /* PeteJunior.xcdatamodeld */; };
+		B86D509E1C15907F00C4A242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B86D509D1C15907F00C4A242 /* Assets.xcassets */; };
+		B86D50A11C15907F00C4A242 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86D509F1C15907F00C4A242 /* LaunchScreen.storyboard */; };
+		B86D50AC1C15907F00C4A242 /* PeteJuniorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86D50AB1C15907F00C4A242 /* PeteJuniorTests.swift */; };
+		B86D50B71C15907F00C4A242 /* PeteJuniorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86D50B61C15907F00C4A242 /* PeteJuniorUITests.swift */; };
+		B86D50C81C15909500C4A242 /* ARAudioRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B86D50C61C15909500C4A242 /* ARAudioRecognizer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B86D50A81C15907F00C4A242 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B86D50881C15907F00C4A242 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B86D508F1C15907F00C4A242;
+			remoteInfo = PeteJunior;
+		};
+		B86D50B31C15907F00C4A242 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B86D50881C15907F00C4A242 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B86D508F1C15907F00C4A242;
+			remoteInfo = PeteJunior;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B86D50901C15907F00C4A242 /* PeteJunior.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeteJunior.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B86D50931C15907F00C4A242 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B86D50951C15907F00C4A242 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B86D50981C15907F00C4A242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B86D509B1C15907F00C4A242 /* PeteJunior.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PeteJunior.xcdatamodel; sourceTree = "<group>"; };
+		B86D509D1C15907F00C4A242 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B86D50A01C15907F00C4A242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B86D50A21C15907F00C4A242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B86D50A71C15907F00C4A242 /* PeteJuniorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeteJuniorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B86D50AB1C15907F00C4A242 /* PeteJuniorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeteJuniorTests.swift; sourceTree = "<group>"; };
+		B86D50AD1C15907F00C4A242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B86D50B21C15907F00C4A242 /* PeteJuniorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeteJuniorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B86D50B61C15907F00C4A242 /* PeteJuniorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeteJuniorUITests.swift; sourceTree = "<group>"; };
+		B86D50B81C15907F00C4A242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B86D50C41C15909500C4A242 /* PeteJunior-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PeteJunior-Bridging-Header.h"; sourceTree = "<group>"; };
+		B86D50C51C15909500C4A242 /* ARAudioRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARAudioRecognizer.h; path = "../../../Downloads/iOS-Audio-Recoginzer-master/ARAudioRecognizer.h"; sourceTree = "<group>"; };
+		B86D50C61C15909500C4A242 /* ARAudioRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARAudioRecognizer.m; path = "../../../Downloads/iOS-Audio-Recoginzer-master/ARAudioRecognizer.m"; sourceTree = "<group>"; };
+		B86D50C71C15909500C4A242 /* ARAudioRecognizerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARAudioRecognizerDelegate.h; path = "../../../Downloads/iOS-Audio-Recoginzer-master/ARAudioRecognizerDelegate.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B86D508D1C15907F00C4A242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86D50A41C15907F00C4A242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86D50AF1C15907F00C4A242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B86D50871C15907F00C4A242 = {
+			isa = PBXGroup;
+			children = (
+				B86D50921C15907F00C4A242 /* PeteJunior */,
+				B86D50AA1C15907F00C4A242 /* PeteJuniorTests */,
+				B86D50B51C15907F00C4A242 /* PeteJuniorUITests */,
+				B86D50911C15907F00C4A242 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B86D50911C15907F00C4A242 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B86D50901C15907F00C4A242 /* PeteJunior.app */,
+				B86D50A71C15907F00C4A242 /* PeteJuniorTests.xctest */,
+				B86D50B21C15907F00C4A242 /* PeteJuniorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B86D50921C15907F00C4A242 /* PeteJunior */ = {
+			isa = PBXGroup;
+			children = (
+				B86D50931C15907F00C4A242 /* AppDelegate.swift */,
+				B86D50951C15907F00C4A242 /* ViewController.swift */,
+				B86D50C51C15909500C4A242 /* ARAudioRecognizer.h */,
+				B86D50C61C15909500C4A242 /* ARAudioRecognizer.m */,
+				B86D50C71C15909500C4A242 /* ARAudioRecognizerDelegate.h */,
+				B86D50971C15907F00C4A242 /* Main.storyboard */,
+				B86D509D1C15907F00C4A242 /* Assets.xcassets */,
+				B86D509F1C15907F00C4A242 /* LaunchScreen.storyboard */,
+				B86D50A21C15907F00C4A242 /* Info.plist */,
+				B86D509A1C15907F00C4A242 /* PeteJunior.xcdatamodeld */,
+				B86D50C41C15909500C4A242 /* PeteJunior-Bridging-Header.h */,
+			);
+			path = PeteJunior;
+			sourceTree = "<group>";
+		};
+		B86D50AA1C15907F00C4A242 /* PeteJuniorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B86D50AB1C15907F00C4A242 /* PeteJuniorTests.swift */,
+				B86D50AD1C15907F00C4A242 /* Info.plist */,
+			);
+			path = PeteJuniorTests;
+			sourceTree = "<group>";
+		};
+		B86D50B51C15907F00C4A242 /* PeteJuniorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B86D50B61C15907F00C4A242 /* PeteJuniorUITests.swift */,
+				B86D50B81C15907F00C4A242 /* Info.plist */,
+			);
+			path = PeteJuniorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B86D508F1C15907F00C4A242 /* PeteJunior */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B86D50BB1C15907F00C4A242 /* Build configuration list for PBXNativeTarget "PeteJunior" */;
+			buildPhases = (
+				B86D508C1C15907F00C4A242 /* Sources */,
+				B86D508D1C15907F00C4A242 /* Frameworks */,
+				B86D508E1C15907F00C4A242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeteJunior;
+			productName = PeteJunior;
+			productReference = B86D50901C15907F00C4A242 /* PeteJunior.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B86D50A61C15907F00C4A242 /* PeteJuniorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B86D50BE1C15907F00C4A242 /* Build configuration list for PBXNativeTarget "PeteJuniorTests" */;
+			buildPhases = (
+				B86D50A31C15907F00C4A242 /* Sources */,
+				B86D50A41C15907F00C4A242 /* Frameworks */,
+				B86D50A51C15907F00C4A242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B86D50A91C15907F00C4A242 /* PBXTargetDependency */,
+			);
+			name = PeteJuniorTests;
+			productName = PeteJuniorTests;
+			productReference = B86D50A71C15907F00C4A242 /* PeteJuniorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B86D50B11C15907F00C4A242 /* PeteJuniorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B86D50C11C15907F00C4A242 /* Build configuration list for PBXNativeTarget "PeteJuniorUITests" */;
+			buildPhases = (
+				B86D50AE1C15907F00C4A242 /* Sources */,
+				B86D50AF1C15907F00C4A242 /* Frameworks */,
+				B86D50B01C15907F00C4A242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B86D50B41C15907F00C4A242 /* PBXTargetDependency */,
+			);
+			name = PeteJuniorUITests;
+			productName = PeteJuniorUITests;
+			productReference = B86D50B21C15907F00C4A242 /* PeteJuniorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B86D50881C15907F00C4A242 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Goran Vukovic";
+				TargetAttributes = {
+					B86D508F1C15907F00C4A242 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					B86D50A61C15907F00C4A242 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = B86D508F1C15907F00C4A242;
+					};
+					B86D50B11C15907F00C4A242 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = B86D508F1C15907F00C4A242;
+					};
+				};
+			};
+			buildConfigurationList = B86D508B1C15907F00C4A242 /* Build configuration list for PBXProject "PeteJunior" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B86D50871C15907F00C4A242;
+			productRefGroup = B86D50911C15907F00C4A242 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B86D508F1C15907F00C4A242 /* PeteJunior */,
+				B86D50A61C15907F00C4A242 /* PeteJuniorTests */,
+				B86D50B11C15907F00C4A242 /* PeteJuniorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B86D508E1C15907F00C4A242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86D50A11C15907F00C4A242 /* LaunchScreen.storyboard in Resources */,
+				B86D509E1C15907F00C4A242 /* Assets.xcassets in Resources */,
+				B86D50991C15907F00C4A242 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86D50A51C15907F00C4A242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86D50B01C15907F00C4A242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B86D508C1C15907F00C4A242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86D50961C15907F00C4A242 /* ViewController.swift in Sources */,
+				B86D50941C15907F00C4A242 /* AppDelegate.swift in Sources */,
+				B86D509C1C15907F00C4A242 /* PeteJunior.xcdatamodeld in Sources */,
+				B86D50C81C15909500C4A242 /* ARAudioRecognizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86D50A31C15907F00C4A242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86D50AC1C15907F00C4A242 /* PeteJuniorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86D50AE1C15907F00C4A242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86D50B71C15907F00C4A242 /* PeteJuniorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B86D50A91C15907F00C4A242 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B86D508F1C15907F00C4A242 /* PeteJunior */;
+			targetProxy = B86D50A81C15907F00C4A242 /* PBXContainerItemProxy */;
+		};
+		B86D50B41C15907F00C4A242 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B86D508F1C15907F00C4A242 /* PeteJunior */;
+			targetProxy = B86D50B31C15907F00C4A242 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B86D50971C15907F00C4A242 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B86D50981C15907F00C4A242 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B86D509F1C15907F00C4A242 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B86D50A01C15907F00C4A242 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B86D50B91C15907F00C4A242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B86D50BA1C15907F00C4A242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B86D50BC1C15907F00C4A242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = PeteJunior/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PeteLoves.PeteJunior;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PeteJunior/PeteJunior-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B86D50BD1C15907F00C4A242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = PeteJunior/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PeteLoves.PeteJunior;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PeteJunior/PeteJunior-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		B86D50BF1C15907F00C4A242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PeteJuniorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PeteLoves.PeteJuniorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeteJunior.app/PeteJunior";
+			};
+			name = Debug;
+		};
+		B86D50C01C15907F00C4A242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PeteJuniorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PeteLoves.PeteJuniorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeteJunior.app/PeteJunior";
+			};
+			name = Release;
+		};
+		B86D50C21C15907F00C4A242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PeteJuniorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PeteLoves.PeteJuniorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PeteJunior;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B86D50C31C15907F00C4A242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PeteJuniorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PeteLoves.PeteJuniorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PeteJunior;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B86D508B1C15907F00C4A242 /* Build configuration list for PBXProject "PeteJunior" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B86D50B91C15907F00C4A242 /* Debug */,
+				B86D50BA1C15907F00C4A242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B86D50BB1C15907F00C4A242 /* Build configuration list for PBXNativeTarget "PeteJunior" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B86D50BC1C15907F00C4A242 /* Debug */,
+				B86D50BD1C15907F00C4A242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B86D50BE1C15907F00C4A242 /* Build configuration list for PBXNativeTarget "PeteJuniorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B86D50BF1C15907F00C4A242 /* Debug */,
+				B86D50C01C15907F00C4A242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B86D50C11C15907F00C4A242 /* Build configuration list for PBXNativeTarget "PeteJuniorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B86D50C21C15907F00C4A242 /* Debug */,
+				B86D50C31C15907F00C4A242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B86D509A1C15907F00C4A242 /* PeteJunior.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B86D509B1C15907F00C4A242 /* PeteJunior.xcdatamodel */,
+			);
+			currentVersion = B86D509B1C15907F00C4A242 /* PeteJunior.xcdatamodel */;
+			path = PeteJunior.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B86D50881C15907F00C4A242 /* Project object */;
+}
