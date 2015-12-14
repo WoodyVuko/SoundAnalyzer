@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		B8001B7C1C1F4CA100C1FB47 /* ARAudioRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B8001B7A1C1F4CA100C1FB47 /* ARAudioRecognizer.m */; };
 		B8001B7E1C1F60B200C1FB47 /* BG_DB.png in Resources */ = {isa = PBXBuildFile; fileRef = B8001B7D1C1F60B200C1FB47 /* BG_DB.png */; };
+		B8364B691C1F660A00ED1E98 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8364B681C1F660A00ED1E98 /* Media.xcassets */; };
 		B86D50941C15907F00C4A242 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86D50931C15907F00C4A242 /* AppDelegate.swift */; };
 		B86D50961C15907F00C4A242 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86D50951C15907F00C4A242 /* ViewController.swift */; };
 		B86D50991C15907F00C4A242 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86D50971C15907F00C4A242 /* Main.storyboard */; };
 		B86D509C1C15907F00C4A242 /* PeteJunior.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B86D509A1C15907F00C4A242 /* PeteJunior.xcdatamodeld */; };
-		B86D509E1C15907F00C4A242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B86D509D1C15907F00C4A242 /* Assets.xcassets */; };
 		B86D50A11C15907F00C4A242 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86D509F1C15907F00C4A242 /* LaunchScreen.storyboard */; };
 		B86D50AC1C15907F00C4A242 /* PeteJuniorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86D50AB1C15907F00C4A242 /* PeteJuniorTests.swift */; };
 		B86D50B71C15907F00C4A242 /* PeteJuniorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86D50B61C15907F00C4A242 /* PeteJuniorUITests.swift */; };
@@ -41,12 +41,12 @@
 		B8001B7A1C1F4CA100C1FB47 /* ARAudioRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARAudioRecognizer.m; sourceTree = "<group>"; };
 		B8001B7B1C1F4CA100C1FB47 /* ARAudioRecognizerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARAudioRecognizerDelegate.h; sourceTree = "<group>"; };
 		B8001B7D1C1F60B200C1FB47 /* BG_DB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BG_DB.png; sourceTree = "<group>"; };
+		B8364B681C1F660A00ED1E98 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		B86D50901C15907F00C4A242 /* PeteJunior.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeteJunior.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B86D50931C15907F00C4A242 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B86D50951C15907F00C4A242 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B86D50981C15907F00C4A242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B86D509B1C15907F00C4A242 /* PeteJunior.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PeteJunior.xcdatamodel; sourceTree = "<group>"; };
-		B86D509D1C15907F00C4A242 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B86D50A01C15907F00C4A242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B86D50A21C15907F00C4A242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B86D50A71C15907F00C4A242 /* PeteJuniorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeteJuniorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,10 +110,10 @@
 				B86D50951C15907F00C4A242 /* ViewController.swift */,
 				B86D50971C15907F00C4A242 /* Main.storyboard */,
 				B8001B7D1C1F60B200C1FB47 /* BG_DB.png */,
+				B8364B681C1F660A00ED1E98 /* Media.xcassets */,
 				B8001B791C1F4CA100C1FB47 /* ARAudioRecognizer.h */,
 				B8001B7A1C1F4CA100C1FB47 /* ARAudioRecognizer.m */,
 				B8001B7B1C1F4CA100C1FB47 /* ARAudioRecognizerDelegate.h */,
-				B86D509D1C15907F00C4A242 /* Assets.xcassets */,
 				B86D509F1C15907F00C4A242 /* LaunchScreen.storyboard */,
 				B86D50A21C15907F00C4A242 /* Info.plist */,
 				B86D509A1C15907F00C4A242 /* PeteJunior.xcdatamodeld */,
@@ -246,8 +246,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B86D50A11C15907F00C4A242 /* LaunchScreen.storyboard in Resources */,
-				B86D509E1C15907F00C4A242 /* Assets.xcassets in Resources */,
 				B8001B7E1C1F60B200C1FB47 /* BG_DB.png in Resources */,
+				B8364B691C1F660A00ED1E98 /* Media.xcassets in Resources */,
 				B86D50991C15907F00C4A242 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

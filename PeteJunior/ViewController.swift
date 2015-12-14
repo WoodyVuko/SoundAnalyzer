@@ -28,11 +28,18 @@ class ViewController: UIViewController, ARAudioRecognizerDelegate {
 
 
     func audioLevelUpdated(recognizer: ARAudioRecognizer!, averagePower: Float, peakPower: Float) {
-        print("Average: ", averagePower)
-        print("Peak: ", peakPower)
+        var temp: Float = averagePower
+        //print("Average: ", averagePower)
+        //print("Peak: ", peakPower)
         
-        let x: Float = ((40 + averagePower)/40)*100
-        label_dB.text = String(averagePower)
+        if(temp < -40){
+            temp = -40;
+        }
+        
+        let x: Float = ((40 + temp)/40)*(-100)
+
+        
+        label_dB.text = String(x)
     }
     func audioRecognized(recognizer: ARAudioRecognizer!) {
         
