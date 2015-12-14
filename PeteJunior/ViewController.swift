@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController, ARAudioRecognizerDelegate {
 
+    @IBOutlet weak var label_dB: UILabel!
     private var xyz: ARAudioRecognizer = ARAudioRecognizer()
 
     override func viewDidLoad() {
@@ -17,7 +18,6 @@ class ViewController: UIViewController, ARAudioRecognizerDelegate {
         
         
         xyz.delegate = self
-        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -26,12 +26,26 @@ class ViewController: UIViewController, ARAudioRecognizerDelegate {
         // Dispose of any resources that can be recreated.
     }
 
+
+    func audioLevelUpdated(recognizer: ARAudioRecognizer!, averagePower: Float, peakPower: Float) {
+        print("Average: ", averagePower)
+        print("Peak: ", peakPower)
+        
+        let x: Float = ((40 + averagePower)/40)*100
+        label_dB.text = String(averagePower)
+    }
     func audioRecognized(recognizer: ARAudioRecognizer!) {
-        print("Fre: ", xyz.frequency)
+        
     }
-    func audioLevelUpdated(recognizer: ARAudioRecognizer!, level lowPassResults: Float) {
-        print("DB: ", lowPassResults)
-    }
+//    
+//    func audioLevelUpdated(recognizer: ARAudioRecognizer!, level lowPassResults: Float) {
+//        //print("DB: ", lowPassResults)
+//        //let x: Float = (40 + lowPassResults)/40
+//        //label_dB.text = String(lowPassResults)
+//
+//        //print(x)
+//
+//    }
 
 }
 
