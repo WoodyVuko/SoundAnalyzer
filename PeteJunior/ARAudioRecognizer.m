@@ -106,11 +106,12 @@
         const double fc = 7;
         double dt = 1.0 / _frequency;
         double RC = 1.0 / (2 * M_PI * fc);
-        
+
         [self.recorder updateMeters];
         
         const double ALPHA = dt / (dt + RC);
         double peakPowerForChannel = pow(10, (0.05 * [self.recorder peakPowerForChannel:0]));
+        
         
         _highPassResults = ALPHA * (_highPassResults + peakPowerForChannel - _lastHighPassResults);
         _lastHighPassResults = _highPassResults;

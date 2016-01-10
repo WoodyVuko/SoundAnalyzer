@@ -4,4 +4,10 @@
 
 #import "ARAudioRecognizer.h"
 #import "ARAudioRecognizerDelegate.h"
+#import <Foundation/Foundation.h>
 
+@interface Superpowered: NSObject
+
+- (void)getFrequencies:(float *)freqs;
+
+@end

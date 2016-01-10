@@ -44,8 +44,10 @@ class ViewController: UIViewController, ARAudioRecognizerDelegate {
         let x: Float = ((40 + temp)/40)*(-100)
 
         //print("Average: ", (40 + temp)/40)
-        print("Average: ", x*(-1), " - Übergeben: ", x*(-1)/150)
-
+        //print("Average: ", x*(-1), " - Übergeben: ", x*(-1)/150)
+        //print(String.localizedStringWithFormat(" %.08f", averagePower))
+        
+        
         label_dB.text = String.localizedStringWithFormat(" %.02f", x)
         self.progBar.progress = Float(x*(-1)/150)
 
