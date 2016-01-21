@@ -5,10 +5,11 @@ class SecondViewController: UIViewController {
     var displayLink:CADisplayLink!
     var layers:[CALayer]!
 
+    @IBOutlet weak var nav: UINavigationItem!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Setup 8 layers for frequency bars.
         let color:CGColorRef = UIColor(red: 0, green: 0.6, blue: 0.8, alpha: 1).CGColor
         layers = [CALayer(), CALayer(), CALayer(), CALayer(), CALayer(), CALayer(), CALayer(), CALayer()]
         for n in 0...7 {

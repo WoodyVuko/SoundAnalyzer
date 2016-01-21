@@ -17,7 +17,6 @@ class ViewController: UIViewController, ARAudioRecognizerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
         xyz.delegate = self
 
         self.progBar.transform = CGAffineTransformRotate(CGAffineTransformMakeScale(1.0, 3.0), -270.0 * -3.141592654 / 180);
