@@ -51,13 +51,15 @@
     // Mix the non-interleaved input to interleaved.
     float interleaved[numberOfSamples * 2 + 16];
     SuperpoweredInterleave(buffers[0], buffers[1], interleaved, numberOfSamples);
-
+   
     // Detect frequency magnitudes.
     float peak, sum;
     pthread_mutex_lock(&mutex);
     samplesProcessedForOneDisplayFrame += numberOfSamples;
     filters->process(interleaved, bands, &peak, &sum, numberOfSamples);
     pthread_mutex_unlock(&mutex);
+    
+
 
     return false;
 }

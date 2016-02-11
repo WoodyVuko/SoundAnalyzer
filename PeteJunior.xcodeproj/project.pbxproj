@@ -30,6 +30,8 @@
 		B8700C311C43ACD5000FBCCA /* sound-308418_960_720.png in Resources */ = {isa = PBXBuildFile; fileRef = B8700C301C43ACD5000FBCCA /* sound-308418_960_720.png */; };
 		B8700C331C43AF52000FBCCA /* Hospitality-branding.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8700C321C43AF52000FBCCA /* Hospitality-branding.jpg */; };
 		B8700C371C43B7C3000FBCCA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8700C361C43B7C3000FBCCA /* HomeViewController.swift */; };
+		B8832C481C6CA77F00A40C0A /* Bereiche.png in Resources */ = {isa = PBXBuildFile; fileRef = B8832C461C6CA77F00A40C0A /* Bereiche.png */; };
+		B8832C491C6CA77F00A40C0A /* Frequenzbereich.png in Resources */ = {isa = PBXBuildFile; fileRef = B8832C471C6CA77F00A40C0A /* Frequenzbereich.png */; };
 		B8D88DA01C42CB46005DEF5D /* Diff.png in Resources */ = {isa = PBXBuildFile; fileRef = B8D88D9F1C42CB46005DEF5D /* Diff.png */; };
 /* End PBXBuildFile section */
 
@@ -86,6 +88,8 @@
 		B8700C301C43ACD5000FBCCA /* sound-308418_960_720.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sound-308418_960_720.png"; sourceTree = "<group>"; };
 		B8700C321C43AF52000FBCCA /* Hospitality-branding.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hospitality-branding.jpg"; sourceTree = "<group>"; };
 		B8700C361C43B7C3000FBCCA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B8832C461C6CA77F00A40C0A /* Bereiche.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bereiche.png; sourceTree = "<group>"; };
+		B8832C471C6CA77F00A40C0A /* Frequenzbereich.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Frequenzbereich.png; sourceTree = "<group>"; };
 		B8D88D9F1C42CB46005DEF5D /* Diff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Diff.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -225,6 +229,8 @@
 		B8700C381C43B7FE000FBCCA /* Pictures */ = {
 			isa = PBXGroup;
 			children = (
+				B8832C461C6CA77F00A40C0A /* Bereiche.png */,
+				B8832C471C6CA77F00A40C0A /* Frequenzbereich.png */,
 				B8700C321C43AF52000FBCCA /* Hospitality-branding.jpg */,
 				B8700C301C43ACD5000FBCCA /* sound-308418_960_720.png */,
 				B8001B7D1C1F60B200C1FB47 /* BG_DB.png */,
@@ -341,6 +347,8 @@
 				B84098A31C43D1900097C935 /* MMWormhole.entitlements in Resources */,
 				B86D50A11C15907F00C4A242 /* LaunchScreen.storyboard in Resources */,
 				B8001B7E1C1F60B200C1FB47 /* BG_DB.png in Resources */,
+				B8832C481C6CA77F00A40C0A /* Bereiche.png in Resources */,
+				B8832C491C6CA77F00A40C0A /* Frequenzbereich.png in Resources */,
 				B8D88DA01C42CB46005DEF5D /* Diff.png in Resources */,
 				B8700C331C43AF52000FBCCA /* Hospitality-branding.jpg in Resources */,
 				B8364B691C1F660A00ED1E98 /* Media.xcassets in Resources */,

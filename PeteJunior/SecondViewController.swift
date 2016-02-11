@@ -31,13 +31,19 @@ class SecondViewController: UIViewController {
         let frequencies = UnsafeMutablePointer<Float>.alloc(8)
         superpowered.getFrequencies(frequencies)
 
+//        for(var i : Int = 0; i < 8; i++)
+//        {
+//            print(i)
+//            i++
+//        }
+        
         // Wrapping the UI changes in a CATransaction block like this prevents animation/smoothing.
         CATransaction.begin()
         CATransaction.setAnimationDuration(0)
         CATransaction.setDisableActions(true)
 
         // Set the dimension of every frequency bar.
-        let originY:CGFloat = self.view.frame.size.height - 20
+        let originY:CGFloat = self.view.frame.size.height - 60
         let width:CGFloat = (self.view.frame.size.width - 47) / 8
         var frame:CGRect = CGRectMake(20, 0, width, 0)
         for n in 0...7 {
