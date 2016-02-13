@@ -336,7 +336,7 @@
             </objects>
             <point key="canvasLocation" x="-271" y="608"/>
         </scene>
-        <!--Diffusschall-->
+        <!--Frequenzanalyse-->
         <scene sceneID="wFB-Qz-qdC">
             <objects>
                 <viewController id="eQe-f3-Dyv" customClass="SecondViewController" customModule="PeteJunior" customModuleProvider="target" sceneMemberID="viewController">
@@ -352,14 +352,10 @@
                                 <rect key="frame" x="20" y="677" width="381" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Frequenzbereich.png" id="LoJ-ao-JZg">
-                                <rect key="frame" x="118" y="74" width="184" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Diffusschall" id="nwP-3n-Yzd">
+                    <navigationItem key="navigationItem" title="Frequenzanalyse" id="nwP-3n-Yzd">
                         <barButtonItem key="backBarButtonItem" title="Home" id="w1N-ga-lGN"/>
                     </navigationItem>
                     <connections>
@@ -375,7 +371,6 @@
         <image name="BG_DB.png" width="1536" height="2048"/>
         <image name="Bereiche.png" width="1113" height="68"/>
         <image name="Diff.png" width="1536" height="2048"/>
-        <image name="Frequenzbereich.png" width="419" height="74"/>
         <image name="Hospitality-branding.jpg" width="1576" height="1205"/>
         <image name="sound-308418_960_720.png" width="960" height="480"/>
     </resources>

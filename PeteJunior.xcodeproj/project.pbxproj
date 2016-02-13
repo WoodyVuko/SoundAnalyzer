@@ -134,14 +134,14 @@
 			name = Direktschall;
 			sourceTree = "<group>";
 		};
-		B83D5CC21C42BC6D00B93292 /* Diffusschall */ = {
+		B83D5CC21C42BC6D00B93292 /* Frequenzanalyse */ = {
 			isa = PBXGroup;
 			children = (
 				B83D5CF81C42C1C800B93292 /* Superpowered */,
 				B83D5CF21C42C1BC00B93292 /* SecondViewController.swift */,
 				B83D5CF31C42C1BC00B93292 /* Superpowered.mm */,
 			);
-			name = Diffusschall;
+			name = Frequenzanalyse;
 			sourceTree = "<group>";
 		};
 		B83D5CF81C42C1C800B93292 /* Superpowered */ = {
@@ -193,7 +193,7 @@
 			children = (
 				B86D50931C15907F00C4A242 /* AppDelegate.swift */,
 				B8700C381C43B7FE000FBCCA /* Pictures */,
-				B83D5CC21C42BC6D00B93292 /* Diffusschall */,
+				B83D5CC21C42BC6D00B93292 /* Frequenzanalyse */,
 				B83D5CC11C42BC5B00B93292 /* Direktschall */,
 				B86D50971C15907F00C4A242 /* Main.storyboard */,
 				B8700C361C43B7C3000FBCCA /* HomeViewController.swift */,
